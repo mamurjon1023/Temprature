@@ -28,7 +28,7 @@ button.addEventListener("click", function (event) {
     countryEl.textContent = country;
     tempEl.textContent = `${temp} °C`;
     hum.textContent = `${humidity}%`;
-    windspd.textContent = `${windspeed}`;
+    windspd.textContent = `${windspeed}Km/h`;
 
     list.appendChild(hum);
     list.appendChild(windspd);
